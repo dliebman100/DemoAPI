@@ -10,5 +10,8 @@ module.exports = (app) => {
   // });
   router.get("/", controller.findAll);
 
+  // GET student by Id
+  router.get("/:id", students.findById);
+
   app.use("/api/student", router);
 };
