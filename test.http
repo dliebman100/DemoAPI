@@ -1,0 +1,5 @@
+### api calls for our DemoAPI
+
+# GET http://localhost:3000/
+
+GET http://localhost:3000/api/student HTTP/1.1

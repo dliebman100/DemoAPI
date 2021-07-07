@@ -1,3 +1,3 @@
 exports.findAll = (req, res) => {
-  res.send("you have reached the controller method to return all Students");
+  res.send("You have reached the controller for getting all Students");
 };
